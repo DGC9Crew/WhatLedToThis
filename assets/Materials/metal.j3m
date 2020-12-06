@@ -1,0 +1,11 @@
+Material My Material : Common/MatDefs/Light/Lighting.j3md {
+     MaterialParameters {
+        BackfaceShadows : false
+        SeparateTexCoord : false
+        UseInstancing : false
+        HardwareShadows : false
+        DiffuseMap : "Textures/metaltext.jpg"
+     }
+    AdditionalRenderState {
+    }
+}
