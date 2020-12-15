@@ -527,10 +527,6 @@ public class Main extends SimpleApplication implements ActionListener, PhysicsCo
             }
         } else {
             character.setViewDirection(walkDirection);
-            // if (airTime > .3f) {
-            // if (!"stand".equals(animationChannel.getAnimationName())) {
-            //    animationChannel.setAnim("stand");
-            //  }
             if (!"run".equals(animationChannel.getAnimationName())) {
 
                 animationChannel.setAnim("run", 1f);
